@@ -123,7 +123,17 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable"
+                    "type": "ResponsiveTable",
+                    "selectionMode": "Multi"
+                  },
+                  "actions": {
+                    "ADD_ACTION002": {
+                      "press": "ztravelappunmanaged.ext.TravelActions.ADD_ACTION002",
+                      "text": "{i18n>addAction002}",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": true
+                    }
                   }
                 }
               }
@@ -137,7 +147,19 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Travel"
+              "contextPath": "/Travel",
+              "content": {
+                "header": {
+                  "actions": {
+                    "ADD_ACTION002": {
+                      "press": "ztravelappunmanaged.ext.TravelActions.ADD_ACTION002",
+                      "text": "{i18n>addAction002}",
+                      "visible": true,
+                      "enabled": true
+                    }
+                  }
+                }
+              }
             }
           }
         }
