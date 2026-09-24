@@ -126,6 +126,18 @@
                     "type": "ResponsiveTable"
                   }
                 }
+              },
+              "content": {
+                "header": {
+                  "actions": {
+                    "listActionID": {
+                      "press": "ztravelapp.ext.controller.HandlerFileName2.listActionIDDeal",
+                      "visible": true,
+                      "enabled": true,
+                      "text": "listActioNamexxxx"
+                    }
+                  }
+                }
               }
             }
           }
