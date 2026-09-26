@@ -45,7 +45,7 @@
       "phone@2": "",
       "tablet": "",
       "tablet@2": ""
-    },
+    },    
     "deviceTypes": {
       "desktop": true,
       "tablet": true,
