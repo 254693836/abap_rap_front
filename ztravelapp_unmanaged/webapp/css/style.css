@@ -1,18 +1,23 @@
-/* Scope alignment to the List Report's table headers, without generated IDs.
- * Both the header container and its nested Label can have inline alignment.
- * No data-cell alignment or OData currency/type annotations are changed.
+/*
+ * GridTable（sap.ui.table.Table）の見出しだけを左寄せにする。
+ * travelListReportLeftAlignedHeaders は、このアプリ独自の CSS クラス名。
+ * ListReportExtension.controller.js の onInit で View に付けており、
+ * この画面にだけ CSS を適用するための目印として使う。
+ *
+ * sapUiTableHeaderDataCell は GridTable の見出しセル。
+ * 本文セルを対象にしないため、金額セルの右寄せは維持する。
+ * UI5 の style 属性による配置を上書きするため !important を使う。
+ * OData のデータ型や通貨アノテーションは変更しない。
  */
-.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell > .sapMColumnHeader {
-    justify-content: flex-start !important;
+
+/* 見出しセルの内側と Label の文字配置を左寄せにする。 */
+.travelListReportLeftAlignedHeaders .sapUiTableHeaderDataCell .sapUiTableCellInner,
+.travelListReportLeftAlignedHeaders .sapUiTableHeaderDataCell .sapMLabel {
     text-align: left !important;
 }
 
-.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMColumnHeaderContent,
-.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMLabel {
-    text-align: left !important;
-}
-
-/* UI5 Labels also align their text inside a full-width flex container. */
-.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMLabelInner {
+/* 見出しの flex 配置と、Label 内部に残る右寄せも上書きする。 */
+.travelListReportLeftAlignedHeaders .sapUiTableHeaderDataCell .sapUiTableCellInner > div,
+.travelListReportLeftAlignedHeaders .sapUiTableHeaderDataCell .sapMLabelInner {
     justify-content: flex-start !important;
 }
