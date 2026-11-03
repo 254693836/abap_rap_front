@@ -1,0 +1,18 @@
+/* Scope alignment to the List Report's table headers, without generated IDs.
+ * Both the header container and its nested Label can have inline alignment.
+ * No data-cell alignment or OData currency/type annotations are changed.
+ */
+.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell > .sapMColumnHeader {
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
+.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMColumnHeaderContent,
+.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMLabel {
+    text-align: left !important;
+}
+
+/* UI5 Labels also align their text inside a full-width flex container. */
+.travelListReportLeftAlignedHeaders th.sapMListTblHeaderCell .sapMLabelInner {
+    justify-content: flex-start !important;
+}
