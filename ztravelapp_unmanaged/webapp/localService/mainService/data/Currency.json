@@ -1,0 +1,4 @@
+[
+  {"Currency":"EUR","Currency_Text":"Euro","Decimals":2,"CurrencyISOCode":"EUR","AlternativeCurrencyKey":"EUR","IsPrimaryCurrencyForISOCrcy":true},
+  {"Currency":"USD","Currency_Text":"US Dollar","Decimals":2,"CurrencyISOCode":"USD","AlternativeCurrencyKey":"USD","IsPrimaryCurrencyForISOCrcy":true}
+]

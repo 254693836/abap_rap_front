@@ -1,0 +1,10 @@
+[
+  {"CustomerID":"1","FirstName":"Hans","LastName":"Buchholm","Title":"Mr.","Street":"Hauptstrasse 14","PostalCode":"10115","City":"Berlin","CountryCode":"DE","PhoneNumber":"+49 30 555 0141","EMailAddress":"hans.buchholm@example.test"},
+  {"CustomerID":"100002","FirstName":"Yuki","LastName":"Tanaka","Title":"Ms.","Street":"1-8-2 Marunouchi","PostalCode":"100-0005","City":"Tokyo","CountryCode":"JP","PhoneNumber":"+81 3 5555 1202","EMailAddress":"yuki.tanaka@example.test"},
+  {"CustomerID":"100003","FirstName":"Mikael","LastName":"Svensson","Title":"Mr.","Street":"Drottninggatan 42","PostalCode":"111 51","City":"Stockholm","CountryCode":"SE","PhoneNumber":"+46 8 555 0303","EMailAddress":"mikael.svensson@example.test"},
+  {"CustomerID":"100004","FirstName":"Sofia","LastName":"Rossi","Title":"Ms.","Street":"Via Torino 18","PostalCode":"20123","City":"Milan","CountryCode":"IT","PhoneNumber":"+39 02 555 0404","EMailAddress":"sofia.rossi@example.test"},
+  {"CustomerID":"100005","FirstName":"Daniel","LastName":"Weber","Title":"Mr.","Street":"Bockenheimer Landstrasse 9","PostalCode":"60325","City":"Frankfurt","CountryCode":"DE","PhoneNumber":"+49 69 555 0505","EMailAddress":"daniel.weber@example.test"},
+  {"CustomerID":"100006","FirstName":"Haruka","LastName":"Sato","Title":"Ms.","Street":"2-11-1 Shibuya","PostalCode":"150-0002","City":"Tokyo","CountryCode":"JP","PhoneNumber":"+81 3 5555 0606","EMailAddress":"haruka.sato@example.test"},
+  {"CustomerID":"100007","FirstName":"Emma","LastName":"Lindberg","Title":"Ms.","Street":"Norrmalmstorg 6","PostalCode":"111 46","City":"Stockholm","CountryCode":"SE","PhoneNumber":"+46 8 555 0707","EMailAddress":"emma.lindberg@example.test"},
+  {"CustomerID":"100008","FirstName":"Luca","LastName":"Bianchi","Title":"Mr.","Street":"Via del Corso 77","PostalCode":"00186","City":"Rome","CountryCode":"IT","PhoneNumber":"+39 06 555 0808","EMailAddress":"luca.bianchi@example.test"}
+]
