@@ -9,6 +9,7 @@ framework:
   version: 1.148.9
   libraries:
     - name: sap.m
+    - name: sap.ndc
     - name: sap.ui.core
     - name: sap.fe.templates
     - name: sap.ushell
