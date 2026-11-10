@@ -9,6 +9,7 @@ sap.ui.define([
         override: {
             onInit: function () {
                 console.log("[ListReport] onInit");
+                this.base.getView().addStyleClass("travelListReportLeftAlignedHeaders");
             },
 
             onBeforeRendering: function () {
