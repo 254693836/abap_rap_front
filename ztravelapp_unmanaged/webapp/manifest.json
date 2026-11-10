@@ -58,6 +58,7 @@
       "minUI5Version": "1.148.9",
       "libs": {
         "sap.m": {},
+        "sap.ndc": {},
         "sap.ui.core": {},
         "sap.fe.templates": {}
       }
@@ -133,10 +134,21 @@
                   "actions": {
                     "ADD_ACTION002": {
                       "press": "ztravelappunmanaged.ext.TravelActions.ADD_ACTION002",
-                      "text": "{i18n>addAction002}",
+                      "text": "list_headerA",
                       "visible": true,
                       "enabled": true,
                       "requiresSelection": true
+                    },
+                    "QRScan": {
+                      "press": ".extension.ztravelappunmanaged.ext.controller.ListReportExtension.QRScan",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": true,
+                      "text": "QRScanT",
+                      "position": {
+                        "placement": "After",
+                        "anchor": "ADD_ACTION002"
+                      }
                     }
                   }
                 }
@@ -157,7 +169,7 @@
                   "actions": {
                     "ADD_ACTION002": {
                       "press": "ztravelappunmanaged.ext.TravelActions.ADD_ACTION002",
-                      "text": "{i18n>addAction002}",
+                      "text": "add_object_action",
                       "visible": true,
                       "enabled": true
                     }
